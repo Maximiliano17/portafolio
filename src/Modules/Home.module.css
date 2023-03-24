@@ -18,6 +18,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    box-shadow: 1px 1px 20px 1px #ccc;
 }
 
 .listas{
@@ -37,8 +39,9 @@
 }
 
 .listas button:hover{    
-    border:1px solid black;
-    background:#ccc;
+    border:1px solid orange;
+    background:none;
+    color:orange;
 }
 
 /*Home*/
@@ -48,12 +51,12 @@
     height:calc(100vh - 4rem);
     
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .presentacion{
-    width:50%;
+    width:40%;
     height:100%;
     
     display: flex;
@@ -63,15 +66,29 @@
     gap:1rem;
 }
 
-.gift{
-    width:50%;
-    height:100%;
+.presentacion p{
+    font-size: 20px;
 
-   
+    color:orange;
+}
+
+.foto{
+    width:60%;
+    height:100%;
+}
+
+.download{
+    width:40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap:.5rem;
 }
 
 .presentacion button{
-    width: 25%;
+    width: 5%;
     height:2rem;
     
     display: flex;
