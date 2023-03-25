@@ -11,7 +11,7 @@ const DownloadButton = ({ url, label }) => {
 
   return (
     <button className={`download-button ${isDownloading ? "downloading" : ""}`} onClick={handleClick}>
-      {isDownloading ? "/" : label}
+      {isDownloading ? "Descargando..." : label}
     </button>
   );
 };

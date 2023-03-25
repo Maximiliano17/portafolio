@@ -56,7 +56,7 @@
 }
 
 .presentacion{
-    width:40%;
+    width:50%;
     height:100%;
     
     display: flex;
@@ -73,22 +73,30 @@
 }
 
 .foto{
-    width:60%;
+    width:50%;
     height:100%;
-}
-
-.download{
-    width:40%;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-    gap:.5rem;
+.foto img:hover{
+    width: 55%;
+    height: 55%;
+
+    transition: 1000ms;
+}
+
+.foto img{
+    width: 50%;
+    height: 50%;
+
+    border-radius: 100%;
 }
 
 .presentacion button{
-    width: 5%;
+    width: 30%;
     height:2rem;
     
     display: flex;

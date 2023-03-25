@@ -2,6 +2,8 @@
 import styles from "../Modules/Home.module.css"
 //Components
 import DownloadButton from "../Button/DownloadButton"
+//Imagenes
+import img from "../assets/img/fondo.png"
 
 function Home() {
 
@@ -31,15 +33,13 @@ function Home() {
 
        <div className={styles.home}>
         <section className={styles.foto}> 
+         <img src={img} alt="foto" />
         </section>
           <section className={styles.presentacion}>
            <p>Hola Soy...</p>
            <h1>Maximiliano Delfor Dos Santos Burgos</h1>
            <h2>Desarrollador web Full Stack</h2>
-           <section className={styles.download}>
-           < DownloadButton />
-            <h3>Descarga mi Cv</h3>
-           </section>
+           < DownloadButton href="../documents/Cv.pdf" target="_BLANK" label="Descarga mi Cv"/>
           </section>    
        </div>
 
