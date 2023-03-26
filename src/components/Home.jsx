@@ -12,7 +12,8 @@ function Home() {
       {/* Home */}
        <header className={styles.header}>
         <section className={styles.listas}>
-        <button> <a>Home</a> </button>
+        <button> <a href="#home">Home</a> </button>
+        <button> <a href="#Sobremi">Sobre mi</a> </button>
         <button> <a>Experiencia</a> </button>
         <button> <a>Habilidades</a> </button>
         </section>
@@ -31,7 +32,7 @@ function Home() {
 
        </header>
 
-       <div className={styles.home}>
+       <div id="home" className={styles.home}>
         <section className={styles.foto}> 
          <img src={img} alt="foto" />
         </section>
@@ -39,7 +40,7 @@ function Home() {
            <p>Hola Soy...</p>
            <h1>Maximiliano Delfor Dos Santos Burgos</h1>
            <h2>Desarrollador web Full Stack</h2>
-           < DownloadButton href="../documents/Cv.pdf" target="_BLANK" label="Descarga mi Cv"/>
+           <DownloadButton label="Descarga mi Cv" />
           </section>    
        </div>
 

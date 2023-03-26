@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./DownloadButton.scss";
 
-const DownloadButton = ({ url, label }) => {
+const DownloadButton = ({ href, label }) => {
   const [isDownloading, setIsDownloading] = useState(false);
 
   const handleClick = () => {
@@ -10,9 +10,9 @@ const DownloadButton = ({ url, label }) => {
   };
 
   return (
-    <button className={`download-button ${isDownloading ? "downloading" : ""}`} onClick={handleClick}>
+    <a href="../documents/Cv.pdf" target="_BLANK" className={`download-button ${isDownloading ? "downloading" : ""}`} onClick={handleClick}>
       {isDownloading ? "Descargando..." : label}
-    </button>
+    </a>
   );
 };
 

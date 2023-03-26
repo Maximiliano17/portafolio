@@ -1,5 +1,6 @@
 //Componentes
 import Home from "./components/Home"
+import Sobremi from "./components/Sobremi"
 
 function App() {
 
@@ -7,6 +8,8 @@ function App() {
    <>
     {/* Header */}
      <Home />
+    {/* Header */}
+      <Sobremi />
    </>
   )
 }
