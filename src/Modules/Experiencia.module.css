@@ -1,0 +1,23 @@
+/*Estilos por defecto*/
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:0px;
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Comfortaa', cursive;
+} 
+
+/*Experiencia*/
+
+.titulo{
+    width:100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+}

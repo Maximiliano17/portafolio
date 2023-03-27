@@ -19,14 +19,16 @@ function Sobremi() {
           Desarrollador web enfocado en el área del Font end, desde siempre he buscado mejorar mi capacidad tanto de programación como de trabajo. Apasionado de nuevas oportunidades disfruto de trabajar solo y en grupo si lo amerita la situación.
         </p>
         <h3>Certificados</h3>
+        <section className={styles.certificados}>
         <p>
-        Diploma del curso HTML5 y CSS3 (OpenBootcamp) <br></br>
-         <br></br>
-        Certificate EF SET (EF International Language Centers) <br></br>
-        <br></br>
-        Diploma de Introducción a la programación (OpenBootcamp) <br></br>
-         <br></br>
+        Diploma del curso HTML5 y CSS3 (OpenBootcamp) 
+        <button><a target="_blank" href="https://community.open-bootcamp.com/user/maxicss/certificaciones/49633b48-a5cd-4020-b30a-907a96e58e52">Ver certificado</a></button>
+        Certificate EF SET (EF International Language Centers) 
+        <button><a target="_blank" href="https://www.efset.org/cert/1dmBGZ">Ver certificado</a></button>
+        Diploma de Introducción a la programación (OpenBootcamp) 
+        <button><a target="_blank" href="https://community.open-bootcamp.com/user/maxicss/certificaciones/b50c99b9-87a3-4490-a638-314751ef6b19">Ver certificado</a></button>
         </p>
+        </section>
         <h3>Educacion</h3>
         <p>
         Tecnico en informatica personal y profecional,

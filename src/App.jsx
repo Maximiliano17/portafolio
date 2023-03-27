@@ -1,4 +1,5 @@
 //Componentes
+import Experiencia from "./components/Experiencia"
 import Home from "./components/Home"
 import Sobremi from "./components/Sobremi"
 
@@ -8,8 +9,10 @@ function App() {
    <>
     {/* Header */}
      <Home />
-    {/* Header */}
+    {/* Sobremi */}
       <Sobremi />
+    {/* Experiencia */}
+     <Experiencia />
    </>
   )
 }
