@@ -27,6 +27,8 @@ function Sobremi() {
         <button><a target="_blank" href="https://www.efset.org/cert/1dmBGZ">Ver certificado</a></button>
         Diploma de Introducción a la programación (OpenBootcamp) 
         <button><a target="_blank" href="https://community.open-bootcamp.com/user/maxicss/certificaciones/b50c99b9-87a3-4490-a638-314751ef6b19">Ver certificado</a></button>
+        Diploma de SQL (OpenBootcamp) 
+        <button><a target="_blank" href="https://community.open-bootcamp.com/user/maxicss/certificaciones/f6b1c740-2f8c-4818-94ec-a2eae29d2a64">Ver certificado</a></button>
         </p>
         </section>
         <h3>Educacion</h3>
