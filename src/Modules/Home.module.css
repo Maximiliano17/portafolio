@@ -56,6 +56,24 @@
     color:orange;
 }
 
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap:1rem ;
+}
+
+.redes a{
+    color:black;
+    text-decoration: none;
+}
+
+.redes a:hover{    
+    color:orange;
+}
+
+
 /*Home*/
 
 .home{
@@ -117,4 +135,51 @@
     gap:1rem;
 
     text-decoration: none;
+}
+
+.logo{
+    display: none;
+}
+
+/*Responcive desing*/
+
+@media (max-width: 860px) {
+
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .listas{
+      display: none;
+    }
+
+    .redes{
+        width: 30%;
+    }
+
+    .logo{
+        width: 70%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 370px) {
+    .redes{
+        display: none;
+    }
+
+    .logo{
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

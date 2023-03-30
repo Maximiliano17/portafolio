@@ -6,7 +6,22 @@ function Experiencia() {
   return (
    <>
     {/* Experiencia */}
-       <p className={styles.titulo}>Experiencia</p>
+       <div className={styles.contenedor}>
+         <section className={styles.proyectos}>
+             <div className={styles.card}>
+               <img src="" alt="Video" />
+               <p>Contenido</p>
+             </div>
+             <div className={styles.card}>
+               <img src="" alt="Video" />
+               <p>Contenido</p>
+             </div>
+             <div className={styles.card}>
+               <img src="" alt="Video" />
+               <p>Contenido</p>
+             </div>
+         </section> 
+       </div>
    </>
   )
 }

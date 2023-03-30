@@ -2,7 +2,7 @@
 
 *{
     margin:0px;
-    padding:0px;
+    padding:0px; 
     box-sizing:0px;
 
     font-family: 'Anton', sans-serif;
@@ -11,13 +11,36 @@
 
 /*Experiencia*/
 
-.titulo{
+.contenedor{
     width:100%;
     height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-    font-size: 50px;
 }
+
+.proyectos{
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap:1rem;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border:1px solid #ccc;
+
+    background: beige;
+}
+
