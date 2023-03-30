@@ -35,7 +35,7 @@
     gap:1rem;
 }
 
-.texto p{
+.texto p{ 
     width:85%;
 }
 
@@ -87,4 +87,10 @@
     text-decoration: none;
 
     color:black;
+}
+
+@media (max-width: 900px) {
+     .foto{
+        display: none;
+     }
 }

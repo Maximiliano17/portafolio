@@ -18,7 +18,7 @@ function Home() {
         <button> <a>Habilidades</a> </button>
         </section>
         <p className={styles.logo}>
-          Maxinashe
+          MaxiDossantos  
         </p>
         <section className={styles.redes}>
         <a target="_blank" href="https://github.com/Maximiliano17"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" classname="bi bi-github" viewBox="0 0 16 16">

@@ -143,7 +143,7 @@
 
 /*Responcive desing*/
 
-@media (max-width: 860px) {
+@media (max-width: 900px) {
 
     .header{
         display: flex;
@@ -157,6 +157,10 @@
 
     .redes{
         width: 30%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center; 
     }
 
     .logo{
@@ -166,6 +170,25 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    
+     .home{  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .presentacion a{
+        width: 50%;
+    }
+
+    .foto img{
+        width: 80%;
+        height: 80%;
+    
+        border-radius: 100%;
     }
 }
 
