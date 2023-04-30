@@ -112,17 +112,17 @@
 }
 
 .foto img:hover{
-    width: 55%;
-    height: 55%;
-
-    transition: 1000ms;
+    box-shadow: 1px 1px 50px 5px orange;
+    transition: 1000ms ease;
 }
 
 .foto img{
-    width: 50%;
+    width: 40%;
     height: 50%;
 
     border-radius: 100%;
+    object-fit: cover;
+    transition: 1000ms;
 }
 
 .presentacion a{

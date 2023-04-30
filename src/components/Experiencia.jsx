@@ -7,20 +7,18 @@ function Experiencia() {
    <>
     {/* Experiencia */}
        <div className={styles.contenedor}>
-         <section className={styles.proyectos}>
-             <div className={styles.card}>
-               <img src="" alt="Video" />
-               <p>Contenido</p>
-             </div>
-             <div className={styles.card}>
-               <img src="" alt="Video" />
-               <p>Contenido</p>
-             </div>
-             <div className={styles.card}>
-               <img src="" alt="Video" />
-               <p>Contenido</p>
-             </div>
-         </section> 
+       <section className={styles.buton}>
+          <p>Proyectos</p> 
+           <section className={styles.opciones}>
+            <button>Grupal</button>
+            <button>Individual</button>
+            <button>Front-End</button>
+            <button>Back-End</button>
+           </section>
+          </section>
+        <section className={styles.proyectos}>
+          
+        </section>
        </div>
    </>
   )

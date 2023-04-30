@@ -10,7 +10,7 @@ const DownloadButton = ({ href, label }) => {
   };
 
   return (
-    <a href="../documents/Cv.pdf" target="_BLANK" className={`download-button ${isDownloading ? "downloading" : ""}`} onClick={handleClick}>
+    <a href="../documents/DosSantosMaximiliano-Desarrollador web..pdf" target="_BLANK" className={`download-button ${isDownloading ? "downloading" : ""}`} onClick={handleClick}>
       {isDownloading ? "Descargando..." : label}
     </a>
   );
