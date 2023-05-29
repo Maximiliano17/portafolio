@@ -14,83 +14,46 @@
 .contenedor{
     width: 100%;
     height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     background: #eee;
 }
 
-/*Texto Sobre mi*/
-
-.texto{
+.borde{
     width: 60%;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
-    gap:1rem;
-}
-
-.texto p{ 
-    width:85%;
-}
-
-.texto h3{
-    color:orange;
-}
-
-/*Foto*/
-
-.foto{
-    width: 40%;
-    height: 100%;
-
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #07b807;
 }
 
-.foto img{
-    width: 70%;
+.certificado{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+.informacion{
+    width: 100%;
     height: 70%;
-
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/*Certificados*/
-
-.certificados p{
-    display: flex;
-    justify-content: center;
     flex-direction: column;
-
-     gap:.5rem;
+    gap:2rem;
 }
 
-.certificados button{
-    width:30%;
-    height: 2rem;
-
-    border:none;  
-    border:1px solid orange;
-    
-    background:none;
-}
-
-.certificados a{
-    text-decoration: none;
-
-    color:black;
-}
-
-@media (max-width: 900px) {
-     .foto{
-        display: none;
-     }
+.informacion_dos{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:2rem;
 }
