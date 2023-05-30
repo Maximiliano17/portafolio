@@ -4,7 +4,7 @@ import styles from "../Modules/Sobremi.module.css"
 import certificate from "../../Json/certificado.json"
 
 function Sobremi() {  
-  return (
+  return ( 
    <>
     <div className={styles.contenedor}> 
       <div className={styles.borde}>
@@ -12,7 +12,7 @@ function Sobremi() {
           <section className={styles.informacion}>
             <span>{certificate.tipo}</span>
             <span>{certificate.nombre}</span>
-            <span>{certificate.certificado}</span>
+            <span className={styles.html}>{certificate.certificado}</span>
           </section>
           <section className={styles.informacion_dos}>
           <span>{certificate.fecha}</span>
